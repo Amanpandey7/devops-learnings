@@ -1,0 +1,15 @@
+linux file permissions work in order: user/owner group others without any spaces
+xrwxrwxrw (use - to prevent any permissions like -rw------ (gives read and write permission only to owner)
+it can also be done via numbers but only 1 digit for each and it will be sum
+r : 4
+w : 2
+x : 1
+rwx = 7
+-rw = 6
+x-w = 3
+chmod 750 file owner got xrw group got rw and other ---
+
+umask - change default permission for files. 
+ps aux - all running processes with details
+| pipe operator : take output of command on left and feed it to right
+ps aux | head: get all processes and show top 10(head)
