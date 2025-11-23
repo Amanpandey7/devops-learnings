@@ -1,0 +1,4 @@
+You can merge branches locally. Not necessary to fo it github.
+repo has to exist in github for git to be able to push 
+ssh keygen has various option 
+-u is used to setupstream branch so not everytime you need to mention upstream branch
