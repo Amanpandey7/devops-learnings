@@ -1,0 +1,17 @@
+Docker is a containerization platform that allows you to package an app with all its dependencies into a lightweight, portable unit called a container.
+
+| VM               | Container                        |
+| ---------------- | -------------------------------- |
+| Full OS + Kernel | Shares Host Kernel               |
+| Heavy (GBs)      | Lightweight (MBs)                |
+| Slow boot        | Instant start                    |
+| Each VM = one OS | Multiple containers share one OS |
+
+| Component         | Description                                 |
+| ----------------- | ------------------------------------------- |
+| **Image**         | A snapshot or blueprint (like a recipe).    |
+| **Container**     | A running instance of an image.             |
+| **Dockerfile**    | Instructions to build an image.             |
+| **Docker Hub**    | Public registry to store and share images.  |
+| **Docker Daemon** | Background process that manages containers. |
+

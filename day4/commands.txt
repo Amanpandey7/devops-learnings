@@ -1,0 +1,22 @@
+docker run hello-world
+
+docker ps             # Shows running containers
+docker ps -a          # Shows all (including stopped)
+docker images         # Lists downloaded images
+docker stop <id>      # Stop a running container
+docker rm <id>        # Remove a stopped container
+docker rmi <image>    # Remove image
+
+
+docker run -it python:3.9
+
+| Action                   | Command                     |
+| ------------------------ | --------------------------- |
+| Pull image               | `docker pull <image>`       |
+| Run container            | `docker run <image>`        |
+| Build image              | `docker build -t <name> .`  |
+| List containers          | `docker ps -a`              |
+| Stop container           | `docker stop <id>`          |
+| Remove container         | `docker rm <id>`            |
+| View logs                | `docker logs <id>`          |
+| Execute inside container | `docker exec -it <id> bash` |
